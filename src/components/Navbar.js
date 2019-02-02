@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
-import logo from 'image/logo.png';
-
+import logo from '../logo.png';
+import styled from 'styled-components'
 export default class Navbar extends Component {
   render() {
     return (
@@ -21,9 +21,17 @@ export default class Navbar extends Component {
            </li>
         </ul>
         <Link to='/cart' className="ml-auto">
-         <button> <i className= "fas fa-cart-plus" /></button>
+         <ButtonContainer> 
+           <span className="mr-2">
+           <i className= "fas fa-cart-plus" />
+         </span>
+         my carts 
+         </ButtonContainer>
         </Link>
       </nav>
     )
   }
 }
+const ButtonContainer = styled.button`
+text-transform:capitalize;
+`
