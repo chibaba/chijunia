@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
 import logo from '../logo.png';
-import styled from 'styled-components'
+import styled from 'styled-components';
+import {ButtonContainer} from 'button';
 export default class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-primary navbar-dark px-sm-5">
+      <navWrapper className="navbar navbar-expand-sm  navbar-dark px-sm-5">
          {/* https://www.iconfinder.com/icons/1243689/call_phone_icon
         Creative
         Commons (Attribution 3.0 Unported );
@@ -28,10 +29,13 @@ export default class Navbar extends Component {
          my carts 
          </ButtonContainer>
         </Link>
-      </nav>
+      </navWrapper>
     )
   }
 }
-const ButtonContainer = styled.button`
-text-transform:capitalize;
+ const  NavWrapper = styled.nav`
+ background:var(--mainBlue)
+
 `
+
+
