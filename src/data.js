@@ -52,7 +52,7 @@ export const storeProducts = [
          total: 0
     },
     {
-        id:6,
+        id:22,
         title: "Apple X5",
         img: "img/product-1.png",
         price: 450,
@@ -116,4 +116,17 @@ export const storeProducts = [
          count: 0,
          total: 0
     },
-]
+];
+
+export const detailProduct = {
+    id:1,
+    title: "Google-pixel black",
+    img: "img/product-1.png",
+    price:10,
+    company:"google",
+    info:
+     "understanding the gundamentakls the fundation of ensuring we sell a poweerful product better than that we are better than that",
+     inCart:false,
+     count:0,
+     total:0
+};

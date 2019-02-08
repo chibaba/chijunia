@@ -9,7 +9,6 @@ state={
 }
 
   render() {
-    console.log(this.state.products);
     return (
     <React.Fragment>
 
@@ -18,10 +17,13 @@ state={
       <Title name="our" title="product">
            
       </Title>
-             <div classNam="row">
+             <div className="row">
              <ProductConsumer>
-               {hello => {
-                    return <h1>{hello}</h1>
+               {value => {
+                    // return <h1>{value}</h1>
+                    return value.products.map(product => {
+                      return <Product key={product.id} product={Product}/>;
+                    })
                }}
              </ProductConsumer>
              </div>
