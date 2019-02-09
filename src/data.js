@@ -54,7 +54,7 @@ export const storeProducts = [
     {
         id:22,
         title: "Apple X5",
-        img: "img/product-1.png",
+        img: "img/product-5.png",
         price: 450,
         company: "bondexpress",
         info:
@@ -67,7 +67,7 @@ export const storeProducts = [
     {
         id:6,
         title: "Google Pixel - Black",
-        img: "img/product-1.png",
+        img: "img/product-6.png",
         price: 10,
         company: "bondexpress",
         info:
@@ -80,7 +80,7 @@ export const storeProducts = [
     {
         id:7,
         title: "Google samsiun - Black",
-        img: "img/product-1.png",
+        img: "img/product-7.png",
         price: 230,
         company: "bondexpress",
         info:
@@ -93,7 +93,7 @@ export const storeProducts = [
     {
         id:8,
         title: "infinix Pixel - Black",
-        img: "img/product-1.png",
+        img: "img/product-8.png",
         price: 10,
         company: "bondexpress",
         info:
@@ -106,7 +106,7 @@ export const storeProducts = [
     {
         id:33,
         title: "Google Pixel - Black",
-        img: "img/product-1.png",
+        img: "img/product-9.png",
         price: 10,
         company: "bondexpress",
         info:

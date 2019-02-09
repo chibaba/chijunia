@@ -15,7 +15,7 @@ const ProductContext = React.createContext();
      console.log('hello from detail')
    }
    addToCart = () =>{
-    console.log('hello from cart')
+    console.log('hello from addcart')
   }
   render() {
     return (
