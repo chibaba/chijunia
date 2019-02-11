@@ -116,6 +116,85 @@ export const storeProducts = [
          count: 0,
          total: 0
     },
+    {
+        id:31,
+        title: "Google Pixel - Black",
+        img: "img/product-10.png",
+        price: 10,
+        company: "bondexpress",
+        info:
+        "we are  working on the best product to fulfill any mabndate neede for our product,\
+         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
+         inCart: false,
+         count: 0,
+         total: 0
+    },
+
+    {
+        id:32,
+        title: "Google Pixel - Black",
+        img: "img/product-11.png",
+        price: 10,
+        company: "bondexpress",
+        info:
+        "we are  working on the best product to fulfill any mabndate neede for our product,\
+         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
+         inCart: false,
+         count: 0,
+         total: 0
+    },
+    {
+        id:34,
+        title: "Google Pixel - Black",
+        img: "img/product-12.png",
+        price: 10,
+        company: "bondexpress",
+        info:
+        "we are  working on the best product to fulfill any mabndate neede for our product,\
+         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
+         inCart: false,
+         count: 0,
+         total: 0
+    },
+    {
+        id:35,
+        title: "Google Pixel - Black",
+        img: "img/product-13.png",
+        price: 10,
+        company: "bondexpress",
+        info:
+        "we are  working on the best product to fulfill any mabndate neede for our product,\
+         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
+         inCart: false,
+         count: 0,
+         total: 0
+    },
+    {
+        id:36,
+        title: "Google Pixel - Black",
+        img: "img/product-14.png",
+        price: 10,
+        company: "bondexpress",
+        info:
+        "we are  working on the best product to fulfill any mabndate neede for our product,\
+         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
+         inCart: false,
+         count: 0,
+         total: 0
+    },
+    {
+        id:37,
+        title: "Google Pixel - Black",
+        img: "img/product-15.png",
+        price: 10,
+        company: "bondexpress",
+        info:
+        "we are  working on the best product to fulfill any mabndate neede for our product,\
+         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
+         inCart: false,
+         count: 0,
+         total: 0
+    },
 ];
 
 export const detailProduct = {

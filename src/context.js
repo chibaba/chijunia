@@ -16,6 +16,21 @@ const ProductContext = React.createContext();
    }
    addToCart = () =>{
     console.log('hello from addcart')
+  };
+  tester = () => {
+    console.log('State products :', this.state.products[0].inCart);
+    console.log('Data products :', this.state.products[0].inCart);
+
+    const tempProducts = [...this.state.products];
+    tempProducts[0].inCart = true
+    this.setState(() =>{
+      return {products:tempProducts}
+    }, ()=>{
+      console.log('State products :', this.state.products[0].inCart);
+      console.log('Data products :', this.state.products[0].inCart);
+  
+    })
+
   }
   render() {
     return (
@@ -24,7 +39,7 @@ const ProductContext = React.createContext();
         handleDetail: this.handleDetail,
         addToCart: this.addToCart,
 
-      }}>
+      }}><button onClick={this.tester}>test me</button>
         { this.props.children}
       </ProductContext.Provider>
     )
