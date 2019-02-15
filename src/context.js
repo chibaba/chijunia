@@ -23,6 +23,10 @@ const ProductContext = React.createContext();
      this.setState(() => {
        return {products:tempProducts}
      })
+   };
+   getItem = (id) => {
+      const product = this.state.products.find(item => item.id ===id);
+      return product; 
    }
    handleDetail = () =>{
      console.log('hello from detail')
