@@ -35,11 +35,30 @@ export default class Details extends Component {
                    price : <span>$</span>{price}
                  </strong>
                  </h4>
+                 <p className="text-capitalize font-weight-bold mt-3 mb-0">
+                 Some info about product;
+                 </p>
+                 <p className="text-muted lead">{info}</p>
+                 <div>
+                   <Link to='/'>
+                       <ButtonContainer>
+                         Back to products
+                       </ButtonContainer>
+                   </Link>
+                   <ButtonContainer
+                    disabled={"inCart"?true:false}
+                    onClick={() =>{
+                      value.addToCart(id)
+                    }}
+                    >
+                     {inCart ? 'inCart' : 'add to cart'}
+                   </ButtonContainer>
+                 </div>
                </div>
 
               </div>
-            </div>
-          )
+            </div> 
+          );
         }}
       </ProductConsumer>
       )
