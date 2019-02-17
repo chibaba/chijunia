@@ -77,7 +77,13 @@ const ProductContext = React.createContext();
      console.log('item removed')
   }
   clearCart = () =>{
-    console.log('cart was cleared')
+     this.setState(() => {
+       return {
+         cart: []
+       }
+     }, () =>{
+       this.setProducts();
+     })
   };
   addTototals = () => {
     let subTotal = 0;
@@ -89,7 +95,8 @@ const ProductContext = React.createContext();
       return {
         cartSubTotal: subTotal,
         cartTax: Tax,
-        
+        cartTotal: total
+
       }
     })
   } 
