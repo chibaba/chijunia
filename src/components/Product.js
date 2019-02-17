@@ -44,10 +44,10 @@ export default class Product extends Component {
        );
       }
 
-       
-    );
-  }
-}
+    }
+    
+  
+
 
 Product.propTypes = {
   product:PropTypes.shape({
