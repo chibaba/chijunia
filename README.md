@@ -1,4 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/648af96f-e173-43a7-8666-3e4573cc5028/deploy-status)](https://app.netlify.com/sites/chijunia/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
