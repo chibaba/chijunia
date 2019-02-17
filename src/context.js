@@ -78,7 +78,21 @@ const ProductContext = React.createContext();
   }
   clearCart = () =>{
     console.log('cart was cleared')
-  }
+  };
+  addTototals = () => {
+    let subTotal = 0;
+    this.state.cart.map(item =>(subTotal += item.total));
+    const tempTax = subTotal * 0.1;
+    const tax = parseFloat(tempTax.toFixed(2));
+    const total = subTotal + tax
+    this.setState(() => {
+      return {
+        cartSubTotal: subTotal,
+        cartTax: Tax,
+        
+      }
+    })
+  } 
   render() {
     return (
       <ProductContext.Provider value={{
