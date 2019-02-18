@@ -6,7 +6,7 @@ text-transform:capitalize;
 font-size: 1.4rem;
 background: transparent;
 border:0.05rem solid var(--LightBlue);
-border-color:${props => (props.cart? "var(--mainYellow)" : "var(--LightBlue)")}
+border-color:${props => (props.cart? "var(--mainYellow)" : "var(--LightBlue)")};
 color: ${prop => prop.cart? "var(--mainYellow)": "var--LightBlue"};
 boreder-radius: 0.5rem;
 padding: 0.2rem 0.5rem;
@@ -20,4 +20,4 @@ transition:all 0.5s ease-in-out;
 &:focus {
   outline: none;
 }
-`
+`;
