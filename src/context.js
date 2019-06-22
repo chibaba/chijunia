@@ -10,7 +10,7 @@ const ProductContext = React.createContext();
    state={
      products:[],
      detailProduct:detailProduct,
-     cart: [],
+     cart: storeProducts,
      modalOpen: false,
      modalProduct: detailProduct,
      cartSubtotal: 0,
@@ -49,7 +49,7 @@ const ProductContext = React.createContext();
   const price = product.price;
   product.total = price;
   this.setState(() => {
-    return {products:tempProducts,cart:[...this.state.cart]}
+    return { products: tempProducts, cart: [...this.state.cart, product] }
   }, () => {
     console.log(this.state);
   })

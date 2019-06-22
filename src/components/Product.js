@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-import {productConsumer, ProductConsumer} from '../context';
+import { ProductConsumer } from '../context';
 import PropTypes from  'prop-types';
 
 export default class Product extends Component {
@@ -13,7 +13,7 @@ export default class Product extends Component {
      <div className="card">
      <ProductConsumer>
        {(value) => (
-         <div className="image-container p-5" onClick={() =>
+         <div className="img-container p-5" onClick={() =>
           value.handleDetail(id)
          }>
          <Link to="/details">
@@ -62,13 +62,13 @@ Product.propTypes = {
 
 const ProductWrapper = styled.div`
  .card{
-   border-color:transparent;
-   transition:all is linear;
+   border-color: transparent;
+   transition:    all 1s linear;
  }
  .card-footer{
-   background:transparent;
+   background: transparent;
    border-top: transparent;
-   transition:all is linear;
+   transition: all 1s linear;
 
  }&:hover {
    .card {
@@ -80,17 +80,17 @@ const ProductWrapper = styled.div`
    }
  }
  .img-container{
-     position:relative;
-     overflow:hidden;
+     position: relative;
+     overflow: hidden;
  }
  .card-img-top{
-   transition: all is linear;
+   transition: all 1s linear;
  }
  .img-container:hover .card-img-top{
    transform: scale(1.2);
  }
  .cart-btn{
-   position:absolute;
+   position: absolute;
    bottom: 0;
    right: 0;
    padding:0.2rem 0.4rem;
@@ -100,7 +100,7 @@ const ProductWrapper = styled.div`
    font-size:1.4rem;
    border-radius: 0.5rem 0 0 0;
    transform:translate(100%,100%);
-   transition:all is linear;
+   transition:all 1s linear;
 
  }
  .img-container:hover .cart-btn{
