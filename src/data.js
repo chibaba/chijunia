@@ -1,8 +1,8 @@
 export const storeProducts = [
     {
         id: 1,
-        title: "Google Pixel - Black",
-        img: "img/product-1.png",
+        title: "Lyna wears",
+        img: "img/product-1.jpeg",
         price: 10,
         company: "Lyna Wears",
         info:
@@ -14,8 +14,8 @@ export const storeProducts = [
     },
     {
         id: 2,
-        title: "Google Pixel - Black",
-        img: "img/product-2.png",
+        title: "Children's wear ",
+        img: "img/product-2.jpeg",
         price: 10,
         company: "Lyna Wears",
         info:
@@ -27,8 +27,8 @@ export const storeProducts = [
     },
     {
         id: 3,
-        title: "Google Pixel - Black",
-        img: "img/product-3.png",
+        title: "Children's wear ",
+        img: "img/product-3.jpeg",
         price: 18,
         company: "LYNA WEARS",
         info:
@@ -40,8 +40,8 @@ export const storeProducts = [
     },
     {
         id: 4,
-        title: "Google mansad - Black",
-        img: "img/product-4.png",
+        title: "Children's wear ",
+        img: "img/product-4.jpeg",
         price: 10,
         company: "Lyna wears",
         info:
@@ -53,8 +53,8 @@ export const storeProducts = [
     },
     {
         id: 22,
-        title: "Apple X5",
-        img: "img/product-5.png",
+        title: "Children's wear ",
+        img: "img/product-5.jpeg",
         price: 450,
         company: "Lyna wears",
         info:
@@ -66,8 +66,8 @@ export const storeProducts = [
     },
     {
         id: 6,
-        title: "Google Pixel - Black",
-        img: "img/product-6.png",
+        title: "Children's wear ",
+        img: "img/product-6.jpeg",
         price: 10,
         company: "bondexpress",
         info:
@@ -79,8 +79,8 @@ export const storeProducts = [
     },
     {
         id: 7,
-        title: "Google samsiun - Black",
-        img: "img/product-7.png",
+        title: "Children's wear ",
+        img: "img/product-7.jpeg",
         price: 230,
         company: "bondexpress",
         info:
@@ -92,8 +92,8 @@ export const storeProducts = [
     },
     {
         id: 8,
-        title: "infinix Pixel - Black",
-        img: "img/product-8.png",
+        title: "Children's wear ",
+        img: "img/product-8.jpeg",
         price: 10,
         company: "Lyna wears",
         info:
@@ -105,8 +105,8 @@ export const storeProducts = [
     },
     {
         id: 33,
-        title: "Google Pixel - Black",
-        img: "img/product-9.png",
+        title: "Children's wear ",
+        img: "img/product-9.jpeg",
         price: 10,
         company: "Lyna wears",
         info:
@@ -118,8 +118,8 @@ export const storeProducts = [
     },
     {
         id: 31,
-        title: "Google Pixel - Black",
-        img: "img/product-10.png",
+        title: "Children's wear ",
+        img: "img/product-10.jpeg",
         price: 10,
         company: "Lyna wears",
         info:
@@ -132,8 +132,8 @@ export const storeProducts = [
 
     {
         id: 32,
-        title: "Google Pixel - Black",
-        img: "img/product-11.png",
+        title: "Children's wear ",
+        img: "img/product-11.jpeg",
         price: 10,
         company: "Lyna wears",
         info:
@@ -146,8 +146,8 @@ export const storeProducts = [
     },
     {
         id: 34,
-        title: "Google Pixel - Black",
-        img: "img/product-12.png",
+        title: "Children's wear ",
+        img: "img/product-12.jpeg",
         price: 10,
         company: "Lyna wears",
         info:
@@ -159,8 +159,8 @@ export const storeProducts = [
     },
     {
         id: 35,
-        title: "Google Pixel - Black",
-        img: "img/product-13.png",
+        title: "Children's wear ",
+        img: "img/product-13.jpeg",
         price: 10,
         company: "Lyna wears",
         info:
@@ -172,8 +172,8 @@ export const storeProducts = [
     },
     {
         id: 36,
-        title: "Google Pixel - Black",
-        img: "img/product-14.png",
+        title: "Children's wear ",
+        img: "img/product-14.jpeg",
         price: 10,
         company: "Lyna wears",
         info:
@@ -185,8 +185,8 @@ export const storeProducts = [
     },
     {
         id: 37,
-        title: "Google Pixel - Black",
-        img: "img/product-15.png",
+        title: "Children's wear ",
+        img: "img/product-15.jpeg",
         price: 10,
         company: "Lyna wears",
         info:
@@ -197,9 +197,9 @@ export const storeProducts = [
         total: 0,
     },
     {
-        id: 37,
-        title: "Google Pixel - Black",
-        img: "img/product-16.png",
+        id: 38,
+        title: "Children's wear ",
+        img: "img/product-16.jpeg",
         price: 10,
         company: "Lyna wears",
         info:
@@ -210,9 +210,48 @@ export const storeProducts = [
         total: 0,
     },
     {
-        id: 37,
+        id: 39,
+        title: "Children's wear",
+        img: "img/product-17.jpeg",
+        price: 10,
+        company: "Lyna wears",
+        info:
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
+    },
+    {
+        id: 40,
+        title: "children wear",
+        img: "img/product-17.jpeg",
+        price: 10,
+        company: "Lyna wears",
+        info:
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
+    },
+    {
+        id: 41,
+        title: "Children's wear ",
+        img: "img/product-17.jpeg",
+        price: 10,
+        company: "Lyna wears",
+        info:
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
+    },
+    {
+        id: 42,
         title: "Google Pixel - Black",
-        img: "img/product-17.png",
+        img: "img/product-17.jpeg",
         price: 10,
         company: "Lyna wears",
         info:
@@ -226,8 +265,8 @@ export const storeProducts = [
 
 export const detailProduct = {
     id: 1,
-    title: "Google-pixel black",
-    img: "img/product-1.png",
+    title: "Children's wear",
+    img: "img/product-1.jpeg",
     price: 10,
     company: "Lyna wears",
     info: "LYNACLOTHINGS,\
