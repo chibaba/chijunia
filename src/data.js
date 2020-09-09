@@ -4,7 +4,7 @@ export const storeProducts = [
         title: "Google Pixel - Black",
         img: "img/product-1.png",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna Wears",
         info:
             "LYNACLOTHINGS\
          For more information please call 08099699990",
@@ -17,7 +17,7 @@ export const storeProducts = [
         title: "Google Pixel - Black",
         img: "img/product-2.png",
         price: 10,
-        company: "google",
+        company: "Lyna Wears",
         info:
             "LYNACLOTHINGS,\
         For more information please call 08099699990",
@@ -43,7 +43,7 @@ export const storeProducts = [
         title: "Google mansad - Black",
         img: "img/product-4.png",
         price: 10,
-        company: "parewne",
+        company: "Lyna wears",
         info:
             "LYNACLOTHINGS,\
          For more information please call 08099699990",
@@ -56,7 +56,7 @@ export const storeProducts = [
         title: "Apple X5",
         img: "img/product-5.png",
         price: 450,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
             "LYNACLOTHINGS,\
         For more information please call 08099699990",
@@ -95,7 +95,7 @@ export const storeProducts = [
         title: "infinix Pixel - Black",
         img: "img/product-8.png",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
             "LYNACLOTHINGS,\
          For more information please call 08099699990",
@@ -108,7 +108,7 @@ export const storeProducts = [
         title: "Google Pixel - Black",
         img: "img/product-9.png",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
             "LYNACLOTHINGS,\
          For more information please call 08099699990",
@@ -121,7 +121,7 @@ export const storeProducts = [
         title: "Google Pixel - Black",
         img: "img/product-10.png",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
             "LYNACLOTHINGS,\
          For more information please call 08099699990",
@@ -135,7 +135,7 @@ export const storeProducts = [
         title: "Google Pixel - Black",
         img: "img/product-11.png",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
             "LYNACLOTHINGS,\
         For more information please call 08099699990",
@@ -149,7 +149,7 @@ export const storeProducts = [
         title: "Google Pixel - Black",
         img: "img/product-12.png",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
             "LYNACLOTHINGS,\
         For more information please call 08099699990",
@@ -162,7 +162,7 @@ export const storeProducts = [
         title: "Google Pixel - Black",
         img: "img/product-13.png",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
             "LYNACLOTHINGS,\
          For more information please call 08099699990",
@@ -175,7 +175,7 @@ export const storeProducts = [
         title: "Google Pixel - Black",
         img: "img/product-14.png",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
             "LYNACLOTHINGS,\
          For more information please call 08099699990",
@@ -188,7 +188,33 @@ export const storeProducts = [
         title: "Google Pixel - Black",
         img: "img/product-15.png",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
+        info:
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
+    },
+    {
+        id: 37,
+        title: "Google Pixel - Black",
+        img: "img/product-16.png",
+        price: 10,
+        company: "Lyna wears",
+        info:
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
+    },
+    {
+        id: 37,
+        title: "Google Pixel - Black",
+        img: "img/product-17.png",
+        price: 10,
+        company: "Lyna wears",
         info:
             "LYNACLOTHINGS,\
          For more information please call 08099699990",
@@ -203,7 +229,7 @@ export const detailProduct = {
     title: "Google-pixel black",
     img: "img/product-1.png",
     price: 10,
-    company: "google",
+    company: "Lyna wears",
     info: "LYNACLOTHINGS,\
     For more information please call 08099699990",
     inCart: false,
