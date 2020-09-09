@@ -1,211 +1,277 @@
 export const storeProducts = [
     {
-        id:1,
-        title: "Google Pixel - Black",
-        img: "img/product-1.png",
+        id: 1,
+        title: "Lyna wears",
+        img: "img/product-1.jpeg",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna Wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:2,
-        title: "Google Pixel - Black",
-        img: "img/product-2.png",
+        id: 2,
+        title: "Children's wear ",
+        img: "img/product-2.jpeg",
         price: 10,
-        company: "google",
+        company: "Lyna Wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+        For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:3,
-        title: "Google Pixel - Black",
-        img: "img/product-3.png",
+        id: 3,
+        title: "Children's wear ",
+        img: "img/product-3.jpeg",
         price: 18,
-        company: "samsung",
+        company: "LYNA WEARS",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:4,
-        title: "Google mansad - Black",
-        img: "img/product-4.png",
+        id: 4,
+        title: "Children's wear ",
+        img: "img/product-4.jpeg",
         price: 10,
-        company: "parewne",
+        company: "Lyna wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:22,
-        title: "Apple X5",
-        img: "img/product-5.png",
+        id: 22,
+        title: "Children's wear ",
+        img: "img/product-5.jpeg",
         price: 450,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+        For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:6,
-        title: "Google Pixel - Black",
-        img: "img/product-6.png",
+        id: 6,
+        title: "Children's wear ",
+        img: "img/product-6.jpeg",
         price: 10,
         company: "bondexpress",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:7,
-        title: "Google samsiun - Black",
-        img: "img/product-7.png",
+        id: 7,
+        title: "Children's wear ",
+        img: "img/product-7.jpeg",
         price: 230,
         company: "bondexpress",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+        For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:8,
-        title: "infinix Pixel - Black",
-        img: "img/product-8.png",
+        id: 8,
+        title: "Children's wear ",
+        img: "img/product-8.jpeg",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:33,
-        title: "Google Pixel - Black",
-        img: "img/product-9.png",
+        id: 33,
+        title: "Children's wear ",
+        img: "img/product-9.jpeg",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:31,
-        title: "Google Pixel - Black",
-        img: "img/product-10.png",
+        id: 31,
+        title: "Children's wear ",
+        img: "img/product-10.jpeg",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
 
     {
-        id:32,
-        title: "Google Pixel - Black",
-        img: "img/product-11.png",
+        id: 32,
+        title: "Children's wear ",
+        img: "img/product-11.jpeg",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+        For more information please call 08099699990",
+
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:34,
-        title: "Google Pixel - Black",
-        img: "img/product-12.png",
+        id: 34,
+        title: "Children's wear ",
+        img: "img/product-12.jpeg",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+        For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:35,
-        title: "Google Pixel - Black",
-        img: "img/product-13.png",
+        id: 35,
+        title: "Children's wear ",
+        img: "img/product-13.jpeg",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:36,
-        title: "Google Pixel - Black",
-        img: "img/product-14.png",
+        id: 36,
+        title: "Children's wear ",
+        img: "img/product-14.jpeg",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
     {
-        id:37,
-        title: "Google Pixel - Black",
-        img: "img/product-15.png",
+        id: 37,
+        title: "Children's wear ",
+        img: "img/product-15.jpeg",
         price: 10,
-        company: "bondexpress",
+        company: "Lyna wears",
         info:
-        "we are  working on the best product to fulfill any mabndate neede for our product,\
-         colllaboration with some  the smartesdt people libvinng within  wdxhcbcjs ",
-         inCart: false,
-         count: 0,
-         total: 0
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
+    },
+    {
+        id: 38,
+        title: "Children's wear ",
+        img: "img/product-16.jpeg",
+        price: 10,
+        company: "Lyna wears",
+        info:
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
+    },
+    {
+        id: 39,
+        title: "Children's wear",
+        img: "img/product-17.jpeg",
+        price: 10,
+        company: "Lyna wears",
+        info:
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
+    },
+    {
+        id: 40,
+        title: "children wear",
+        img: "img/product-17.jpeg",
+        price: 10,
+        company: "Lyna wears",
+        info:
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
+    },
+    {
+        id: 41,
+        title: "Children's wear ",
+        img: "img/product-17.jpeg",
+        price: 10,
+        company: "Lyna wears",
+        info:
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
+    },
+    {
+        id: 42,
+        title: "Google Pixel - Black",
+        img: "img/product-17.jpeg",
+        price: 10,
+        company: "Lyna wears",
+        info:
+            "LYNACLOTHINGS,\
+         For more information please call 08099699990",
+        inCart: false,
+        count: 0,
+        total: 0,
     },
 ];
 
 export const detailProduct = {
-    id:1,
-    title: "Google-pixel black",
-    img: "img/product-1.png",
-    price:10,
-    company:"google",
-    info:
-     "understanding the gundamentakls the fundation of ensuring we sell a poweerful product better than that we are better than that",
-     inCart:false,
-     count:0,
-     total:0
+    id: 1,
+    title: "Children's wear",
+    img: "img/product-1.jpeg",
+    price: 10,
+    company: "Lyna wears",
+    info: "LYNACLOTHINGS,\
+    For more information please call 08099699990",
+    inCart: false,
+    count: 0,
+    total: 0,
 };
